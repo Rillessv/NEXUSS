@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NEXUS | Dashboard</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header class="dashboard-header">
+
+        <h2>NEXUS</h2>
+
+        <span class="status">
+            ● SISTEMA ONLINE
+        </span>
+
+    </header>
+
+
+    <main class="dashboard">
+
+        <h1>SMART CAMPUS</h1>
+
+        <p class="dashboard-subtitle">
+            Centro de control tecnológico
+        </p>
+
+
+        <section class="cards">
+
+
+            <div class="card">
+
+                <span class="icon">🌡️</span>
+
+                <h3>Temperatura</h3>
+
+                <p class="value" id="Temperatura">23°C</p>
+
+                <small>Estado normal</small>
+
+            </div>
+
+
+            <div class="card">
+
+                <span class="icon">💡</span>
+
+                <h3>Iluminación</h3>
+
+                <p class="value" id="Iluminación">72%</p>
+
+                <small>Sistema automático</small>
+
+            </div>
+
+
+            <div class="card">
+
+                <span class="icon">👥</span>
+
+                <h3>Personas</h3>
+
+                <p class="value" id="Personas">184</p>
+
+                <small>Usuarios activos</small>
+
+            </div>
+
+
+            <div class="card">
+
+                <span class="icon">⚡</span>
+
+                <h3>Energía</h3>
+
+                <p class="value" id="Energía">4.8 kWh</p>
+
+                <small>Consumo actual</small>
+
+            </div>
+
+
+        </section>
+
+
+        <section class="campus-status">
+
+            <h2>ESTADO DEL CAMPUS</h2>
+
+            <div class="online">
+                🟢 TODOS LOS SISTEMAS FUNCIONANDO
+            </div>
+
+    
+        <section class="ai-panel">
+
+    <h2>🤖 NEXUS INTELLIGENCE</h2>
+
+    <p>
+        Análisis automático del campus
+    </p>
+
+    <div id="recomendacion">
+        Analizando datos...
+    </div>
+
+</section>
+
+
+        <a href="index.html" class="back">
+            ← Volver al inicio
+        </a>
+
+    </main>
+<script src="js/sensores.js"></script>
+<script src="js/ia.js"></script>
+</body>
+
+</html>

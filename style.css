@@ -1,0 +1,229 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #05070d;
+    color: white;
+}
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background:
+        radial-gradient(circle at center, #102044 0%, #05070d 60%);
+}
+
+.subtitle {
+    letter-spacing: 5px;
+    font-size: 14px;
+    color: #4da6ff;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+    letter-spacing: 15px;
+    margin: 0;
+}
+
+.description {
+    font-size: 20px;
+    color: #b8c0cc;
+    margin-top: 20px;
+}
+
+.buttons {
+    margin-top: 40px;
+}
+
+.buttons .btn {
+    margin: 8px;
+    padding: 12px 25px;
+    border-radius: 30px;
+}/* DASHBOARD */
+
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 50px;
+
+    border-bottom: 1px solid #1e293b;
+}
+
+.dashboard-header h2 {
+    color: #1c6280;
+    letter-spacing: 4px;
+}
+
+.status {
+    color: #22c55e;
+    font-size: 14px;
+}
+
+
+.dashboard {
+    padding: 60px;
+}
+
+.dashboard h1 {
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+.dashboard-subtitle {
+    color: #64a0f3;
+    margin-bottom: 40px;
+}
+
+
+.cards {
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 20px;
+}
+
+
+.card {
+    background: #0b1220;
+
+    border: 1px solid #1e3a5f;
+
+    border-radius: 20px;
+
+    padding: 30px;
+
+    transition: 0.3s;
+}
+
+
+.card:hover {
+    transform: translateY(-8px);
+
+    border-color: #38bdf8;
+}
+
+
+.icon {
+    font-size: 35px;
+}
+
+
+.card h3 {
+    color: #94a3b8;
+    margin-top: 20px;
+}
+
+
+.value {
+    font-size: 35px;
+    font-weight: bold;
+    color: #38bdf8;
+}
+
+
+.card small {
+    color: #64748b;
+}
+
+
+.campus-status {
+    margin-top: 40px;
+
+    padding: 30px;
+
+    background: #0b1220;
+
+    border-radius: 20px;
+
+    border: 1px solid #1e3a5f;
+}
+
+
+.online {
+    margin-top: 20px;
+
+    color: #22c55e;
+
+    font-weight: bold;
+}
+
+
+.back {
+    display: inline-block;
+
+    margin-top: 40px;
+
+    color: #38bdf8;
+
+    text-decoration: none;
+}/* NEXUS INTELLIGENCE */
+
+.ai-panel {
+    margin-top: 40px;
+
+    padding: 30px;
+
+    background: #07111f;
+
+    border: 1px solid #2563eb;
+
+    border-radius: 20px;
+
+    box-shadow: 0 0 25px rgba(37, 99, 235, 0.15);
+}
+
+.ai-panel h2 {
+    color: #38bdf8;
+
+    letter-spacing: 2px;
+
+    font-size: 22px;
+}
+
+.ai-panel p {
+    color: #64748b;
+}
+
+#recomendacion {
+    margin-top: 20px;
+
+    padding: 20px;
+
+    background: #0b1728;
+
+    border-radius: 12px;
+
+    color: #e2e8f0;
+
+    line-height: 1.6;
+}
+
+.campus-page {
+    min-height: 100vh;
+    padding: 40px 20px;
+    text-align: center;
+    color: white;
+    background: #070b16;
+}
+
+.campus-page h2 {
+    margin: 25px 0;
+}
+
+.campus-page model-viewer {
+    width: 100%;
+    max-width: 1100px;
+    height: 70vh;
+    margin: auto;
+    display: block;
+    background: #101827;
+    border-radius: 18px;
+}
